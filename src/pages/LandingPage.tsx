@@ -123,7 +123,7 @@ const LandingPage = () => {
     {
       name: 'Sarah Johnson',
       role: 'Entrepreneur',
-      content: 'InvestWise helped me save $5,000 in just 6 months by optimizing my spending habits.',
+      content: 'InvestWize helped me save $5,000 in just 6 months by optimizing my spending habits.',
       rating: 5
     },
     {
@@ -149,7 +149,7 @@ const LandingPage = () => {
             <div className="w-10 h-10 gold-gradient rounded-xl flex items-center justify-center glow-effect">
               <Coins className="w-6 h-6 text-black" />
             </div>
-            <span className="text-3xl font-bold gradient-text text-glow">InvestWise</span>
+            <span className="text-3xl font-bold gradient-text text-glow">InvestWize</span>
           </div>
           
           <div className="flex items-center space-x-4">
@@ -189,7 +189,7 @@ const LandingPage = () => {
           
           <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-4xl mx-auto">
             Transform your financial future with personalized insights, smart budgeting, 
-            and expert investment guidance. Join <span className="text-yellow-400 font-semibold">50,000+</span> users 
+            and expert investment guidance. Join <span className="text-yellow-400 font-semibold">those</span> users 
             who are already building wealth with AI.
           </p>
 
@@ -277,7 +277,7 @@ const LandingPage = () => {
       {/* Benefits Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-6">Why Choose InvestWise?</h2>
+          <h2 className="text-5xl font-bold mb-6">Why Choose InvestWize?</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Experience the future of personal finance with cutting-edge AI technology
           </p>
@@ -420,7 +420,7 @@ const LandingPage = () => {
             <div className="w-8 h-8 gold-gradient rounded-xl flex items-center justify-center">
               <Coins className="w-5 h-5 text-black" />
             </div>
-            <span className="text-2xl font-bold gradient-text">InvestWise</span>
+            <span className="text-2xl font-bold gradient-text">InvestWize</span>
           </div>
           
           <div className="flex items-center space-x-8">
@@ -447,7 +447,7 @@ const LandingPage = () => {
         
         <div className="text-center mt-8 pt-8 border-t border-gray-800">
           <p className="text-gray-500">
-            © 2024 InvestWise. Empowering financial freedom through AI innovation.
+            © 2024 InvestWize. Empowering financial freedom through AI innovation.
           </p>
         </div>
       </footer>

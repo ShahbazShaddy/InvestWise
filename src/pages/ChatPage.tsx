@@ -30,7 +30,7 @@ const ChatPage = () => {
     {
       id: '1',
       role: 'assistant',
-      content: "Welcome to InvestWise! 🪙 I'm your AI Investment Coach, here to help you master your finances. Whether you need help with budgeting, expense tracking, investment strategies, or building wealth, I'm here to guide you every step of the way.\n\nWhat financial challenge can I help you solve today? I can assist with:\n• Smart budgeting & expense analysis\n• Investment recommendations (ETFs, stocks, bonds)\n• Savings strategies & goal planning\n• Debt management & optimization\n• Financial planning for your future",
+      content: "Welcome to InvestWize! 🪙 I'm your AI Investment Coach, here to help you master your finances. Whether you need help with budgeting, expense tracking, investment strategies, or building wealth, I'm here to guide you every step of the way.\n\nWhat financial challenge can I help you solve today? I can assist with:\n• Smart budgeting & expense analysis\n• Investment recommendations (ETFs, stocks, bonds)\n• Savings strategies & goal planning\n• Debt management & optimization\n• Financial planning for your future",
       timestamp: new Date()
     }
   ])
@@ -58,7 +58,7 @@ const ChatPage = () => {
         console.error('GROQ API key is missing from environment variables')
         throw new Error('API key configuration error')
       }
-      const prompt = `You are InvestWise, an expert AI Investment Coach and Personal Finance advisor with a friendly, professional personality. Use emojis appropriately to make responses engaging.
+      const prompt = `You are InvestWize, an expert AI Investment Coach and Personal Finance advisor with a friendly, professional personality. Use emojis appropriately to make responses engaging.
 
 Your expertise includes:
 - Advanced budget planning and expense optimization
@@ -126,7 +126,7 @@ Response:`
       } else if (lowerMessage.includes('debt') || lowerMessage.includes('loan')) {
         return "⚡ Let's tackle that debt strategically!\n\n🎯 **Debt Elimination Strategies**:\n\n**Avalanche Method** (Best for math):\n• Pay minimums on all debts\n• Attack highest interest rate first\n• Saves most money long-term\n\n**Snowball Method** (Best for motivation):\n• Pay minimums on all debts\n• Attack smallest balance first\n• Builds momentum and confidence\n\n💳 **Credit Card Optimization**:\n1. Balance transfer to 0% APR card\n2. Negotiate lower rates with current cards\n3. Consider debt consolidation loan\n\n📊 What types of debt are you dealing with? Share the balances and interest rates, and I'll create a personalized payoff plan! 💪"
       } else {
-        return "🪙 Welcome to InvestWise! I'm here to help transform your financial future.\n\n🎯 **I can help you with**:\n• 📊 Smart budgeting and expense tracking\n• 📈 Investment strategies and portfolio building\n• 💰 Savings optimization and goal planning\n• ⚡ Debt management and elimination\n• 🏠 Financial planning for major purchases\n• 🎓 Financial education and literacy\n\n💡 **Popular questions I answer**:\n\"How should I start investing with $1000?\"\n\"What's the best budgeting method for beginners?\"\n\"How can I save for a house down payment?\"\n\"Should I pay off debt or invest first?\"\n\nWhat financial goal are you working towards? Let's create a plan together! 🚀\n\n*Remember: This is educational content. Always consult licensed financial advisors for major financial decisions.*"
+        return "🪙 Welcome to InvestWize! I'm here to help transform your financial future.\n\n🎯 **I can help you with**:\n• 📊 Smart budgeting and expense tracking\n• 📈 Investment strategies and portfolio building\n• 💰 Savings optimization and goal planning\n• ⚡ Debt management and elimination\n• 🏠 Financial planning for major purchases\n• 🎓 Financial education and literacy\n\n💡 **Popular questions I answer**:\n\"How should I start investing with $1000?\"\n\"What's the best budgeting method for beginners?\"\n\"How can I save for a house down payment?\"\n\"Should I pay off debt or invest first?\"\n\nWhat financial goal are you working towards? Let's create a plan together! 🚀\n\n*Remember: This is educational content. Always consult licensed financial advisors for major financial decisions.*"
       }
     }
   }
@@ -201,7 +201,7 @@ Response:`
                 <Coins className="w-6 h-6 text-black" />
               </div>
               <div>
-                <h1 className="text-xl font-bold gradient-text">InvestWise Coach</h1>
+                <h1 className="text-xl font-bold gradient-text">InvestWize Coach</h1>
                 <p className="text-sm text-gray-400">AI Investment Assistant</p>
               </div>
             </div>
