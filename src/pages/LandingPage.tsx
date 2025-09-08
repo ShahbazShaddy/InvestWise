@@ -41,6 +41,11 @@ const LandingPage = () => {
     console.log('Contact button clicked')
     window.open('mailto:2022cs17@student.uet.edu.pk', '_blank')
   }
+  
+  const handleLinkedIn = () => {
+    console.log('LinkedIn button clicked')
+    window.open('https://www.linkedin.com/in/hamza-naseer08/', '_blank')
+  }
 
   const features = [
     {
@@ -163,7 +168,7 @@ const LandingPage = () => {
             </Button>
             <Button
               variant="ghost"
-              onClick={handleContact}
+              onClick={handleLinkedIn}
               className="text-gray-300 hover:text-yellow-400 hover:bg-gray-800"
             >
               <Linkedin className="w-4 h-4 mr-2" />
@@ -431,12 +436,12 @@ const LandingPage = () => {
               className="text-gray-400 hover:text-yellow-400"
             >
               <Mail className="w-4 h-4 mr-2" />
-              https://www.linkedin.com/in/hamza-naseer08/
+              2022cs17@student.uet.edu.pk
             </Button>
             <Button
               variant="ghost"
               size="sm"
-              onClick={handleContact}
+              onClick={handleLinkedIn}
               className="text-gray-400 hover:text-yellow-400"
             >
               <Linkedin className="w-4 h-4 mr-2" />
