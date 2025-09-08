@@ -39,7 +39,7 @@ const LandingPage = () => {
 
   const handleContact = () => {
     console.log('Contact button clicked')
-    window.open('mailto:2022cs27@student.uet.edu.pk', '_blank')
+    window.open('mailto:2022cs17@student.uet.edu.pk', '_blank')
   }
 
   const features = [
@@ -155,7 +155,7 @@ const LandingPage = () => {
           <div className="flex items-center space-x-4">
             <Button
               variant="ghost"
-              onClick={() => window.open('mailto:2022cs27@student.uet.edu.pk')}
+              onClick={() => window.open('mailto:2022cs17@student.uet.edu.pk')}
               className="text-gray-300 hover:text-yellow-400 hover:bg-gray-800"
             >
               <Mail className="w-4 h-4 mr-2" />
@@ -427,11 +427,11 @@ const LandingPage = () => {
             <Button
               variant="ghost"
               size="sm"
-              onClick={() => window.open('mailto:2022cs27@student.uet.edu.pk')}
+              onClick={() => window.open('mailto:2022cs17@student.uet.edu.pk')}
               className="text-gray-400 hover:text-yellow-400"
             >
               <Mail className="w-4 h-4 mr-2" />
-              2022cs27@student.uet.edu.pk
+              https://www.linkedin.com/in/hamza-naseer08/
             </Button>
             <Button
               variant="ghost"
